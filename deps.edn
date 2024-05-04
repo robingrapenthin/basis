@@ -34,7 +34,10 @@
    :extra-deps
    {org.clojure/clojurescript {:mvn/version "1.11.60"}
     com.cognitect/transit-cljs {:mvn/version "0.8.264"}
-    reagent/reagent {:mvn/version "1.2.0"}}}
+    reagent/reagent {:mvn/version "1.2.0"}
+    cljsjs/react {:mvn/version "17.0.2-0"}
+    cljsjs/react-dom {:mvn/version "17.0.2-0"}
+    cljs-http/cljs-http {:mvn/version "0.1.48"}}}
   :frontend-dev
   {:extra-paths ["src/dev/frontend" "frontend-dev-build"]
    :extra-deps
